@@ -34,4 +34,8 @@ public class TodoService {
         todoRepository.deleteById(todo.getId());
         return list();
     }
+
+    public List<Todo> delete(Long id) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }
